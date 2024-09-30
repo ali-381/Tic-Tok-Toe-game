@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
+    <div class="msg-container hide">
+      <p class="msg" >winner</p>
+    </div>
+    <button type="button" id="new-game-btn">New Gmae</button>
     <main>
       <h2>Tic Tok Toe Game</h2>
       <div class="container">
         <div class="game">
-          <button class="box">X</button>
-          <button class="box">0</button>
+          <button class="box"></button>
+          <button class="box"></button>
           <button class="box"></button>
           <button class="box"></button>
           <button class="box"></button>
@@ -22,9 +26,8 @@
           <button class="box"></button>
         </div>
       </div>
-      <button type="button" value="submit"
-      class="btn">Submit</button>
+      <button type="button" value="submit" id="reset-btn">Reset</button>
     </main>
+    <script src="app.js"></script>
   </body>
-  <script src="app.js"></script>
 </html>

@@ -40,7 +40,7 @@ body {
   font-weight: 700;
 }
 
-.btn{
+#reset-btn{
     border: 2px solid blue;
     background-color: black;
     color: white;
@@ -49,4 +49,33 @@ body {
     font-size: 1rem;
     font-weight: 700;
     border-radius: 10px;
+}
+
+#new-game-btn{
+  border: 2px solid blue;
+    background-color: black;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.msg-container{
+  
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+
+.msg{
+  color: #ffffc7;
+  font-size: 5vmin;
 }
